@@ -12,7 +12,7 @@ import Subheading from './Subheading';
 function SkillSection(){
     return(
         <div id="Skills" className='skill-section'>
-            <Subheading content="My Prowess" />
+            <Subheading content="" />
             <div className='skill-card-wrapper'>
                 <SkillCard
                     softwareAnimation={true}
@@ -34,12 +34,14 @@ function SkillSection(){
                     contentLine1="Skilled in making fully functional Secure web applications & RESTful APIs using NodeJS, ExpressJS, EJS, WebSockets, MongoDB, MySQL."
                 />
             </div>
-            <img className="app-icons" src={VisualIcon} alt='visual-icon' style={{left: "7%"}}></img>
-            <img className='app-icons' src={NodeIcon} alt='node-icon' style={{top: "365px"}}></img>
-            <img className='app-icons' src={JsIcon} alt='JS-icon' style={{top: "80px", left: "1147px"}}></img>
-            <img className='app-icons' src={HTMLIcon} alt='HTML-icon' style={{top: "142px", left: "296px"}}></img>
-            <img className='app-icons' src={CSSIcon} alt='CSS-icon' style={{top: "410px", left: "622px"}}></img>
-            <img className='app-icons' src={ReactIcon} alt='React-icon' style={{top: "435px", left: "945px"}}></img>
+            <div className="skill-icons-container">
+                <img className="app-icons" src={VisualIcon} alt='visual-icon' />
+                <img className='app-icons' src={NodeIcon} alt='node-icon' />
+                <img className='app-icons' src={JsIcon} alt='JS-icon' />
+                <img className='app-icons' src={HTMLIcon} alt='HTML-icon' />
+                <img className='app-icons' src={CSSIcon} alt='CSS-icon' />
+                <img className='app-icons' src={ReactIcon} alt='React-icon' />
+            </div>
         </div>
     );
 }

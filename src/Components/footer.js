@@ -6,7 +6,7 @@ function Footer(){
     return(
         <div id="Contact" className="footer">
             <hr className="horizontal-line"></hr>
-            <h3 className="footerTitle">Available for freelancing.</h3>
+            <h3 className="footerTitle">Let's Build Something Amazing Together</h3>
             <h5 className="footerContent">Send me an E-mail or get in touch with me via message!</h5>
             <div className="icons">
                 <a href=""><i className="fa-brands fa-instagram"></i></a>

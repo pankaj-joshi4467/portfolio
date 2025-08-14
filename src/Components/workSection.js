@@ -27,9 +27,20 @@ function WorkSection(){
                     <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
                         <WorkCard 
                             projectName={"Imagify - AI Image Generator"} 
-                            projectCategory={"Mern Stack"} 
+                            projectCategory={"Generator AI SaaS App Using MERN Stack."} 
                             imgURL={require("../res/work/imagify.png")}
                             projectURL={"https://github.com/pankaj-joshi4467/Imagify.git"}
+                        />
+                    </Grid>
+
+
+
+                    <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
+                        <WorkCard 
+                            projectName={"Quick Show - Movie Ticket Booking Site"} 
+                            projectCategory={"MongoDB, Express, React JS, Node JS, Clerk Auth, Inngest and Stripe."} 
+                            imgURL={require("../res/work/movie.png")}
+                            projectURL={"https://quickshow.vercel.app/"}
                         />
                     </Grid>
 
@@ -47,7 +58,7 @@ function WorkSection(){
 
                      <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
                         <WorkCard 
-                            projectName={"University Portal"} 
+                            projectName={" Edusity - University Portal"} 
                             projectCategory={"ReactJs"} 
                             imgURL={require("../res/work/uni.png")}
                             projectURL={"https://relaxed-dolphin-7a34fa.netlify.app/"}
@@ -55,7 +66,7 @@ function WorkSection(){
                     </Grid>
                     <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
                         <WorkCard 
-                            projectName={"Tour and Travel Booking"} 
+                            projectName={" Tripzi - Tour and Travel Booking"} 
                             projectCategory={"ReactJs"} 
                             imgURL={require("../res/work/tour.png")}
                             projectURL={"https://idyllic-lamington-e962b3.netlify.app/"}

@@ -74,7 +74,7 @@ function DrawerAppBar(props) {
             </nav>
           </Box>
           <Box sx={{display: { xs: 'none', sm: 'block' }}}>
-            <a className='resume-button' href={"https://rxresu.me/pankajjoshi4467/pankaj-resume"}><span class="text">Resume</span><span>Resume</span></a>
+            <a className='resume-button' href={"https://drive.google.com/file/d/1HBMFvfGVU-S0Av0SPc_3SkiwmiFjKfNp/view"}><span class="text">Resume</span><span>Resume</span></a>
           </Box>
         </Toolbar>
       </AppBar>

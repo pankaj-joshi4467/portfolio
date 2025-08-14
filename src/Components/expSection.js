@@ -13,7 +13,7 @@ function ExperienceSection(){
                     location="Remote"
                     position="Full Stack Developer intern"
                     organization="Vilearnx Advance Technologies"
-                    startYear="2024"
+                    startYear="Aug-2024 to Sep-2024"
                     content="During my internship, I collaborated on multiple full-stack web development projects, contributing to both front-end and back-end functionalities using the MERN stack. I implemented secure user authentication, optimized database operations, and integrated real-time features to enhance application performance. Leading a small team, I coordinated Agile-based task distribution, conducted regular progress reviews, and ensured code quality through Git-based version control and collaborative workflows. My role also involved troubleshooting technical issues, optimizing UI/UX for responsiveness, and ensuring timely project delivery through effective communication and problem-solving."
                 />
             </Box>
