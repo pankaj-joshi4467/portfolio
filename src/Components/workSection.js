@@ -14,6 +14,26 @@ function WorkSection(){
                     {/* Add more Grid items here for more projects */}
 
 
+
+                        <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
+                        <WorkCard 
+                            projectName={"GreenCart-Grocery Delivery Website"} 
+                            projectCategory={"MERN (MongoDB, Express.js, React.js, Node.js) | Tailwind CSS | Axios | JWT | Bcrypt | Stripe | Cloudinary"} 
+                            imgURL={require("../res/work/green.png")}
+                            projectURL={"https://green-cart-pankaj-grocery-app.vercel.app/"}
+                        />
+                    </Grid>
+
+                      <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
+                        <WorkCard 
+                            projectName={"Quick Show - Movie Ticket Booking Site"} 
+                            projectCategory={"MongoDB, Express, React JS, Node JS, Clerk Auth, Inngest and Stripe."} 
+                            imgURL={require("../res/work/movie.png")}
+                            projectURL={"https://quickshow.vercel.app/"}
+                        />
+                    </Grid>
+
+
                     <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
                         <WorkCard 
                             projectName={"Edemy - Online Learning Platform"} 
@@ -35,14 +55,7 @@ function WorkSection(){
 
 
 
-                    <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
-                        <WorkCard 
-                            projectName={"Quick Show - Movie Ticket Booking Site"} 
-                            projectCategory={"MongoDB, Express, React JS, Node JS, Clerk Auth, Inngest and Stripe."} 
-                            imgURL={require("../res/work/movie.png")}
-                            projectURL={"https://quickshow.vercel.app/"}
-                        />
-                    </Grid>
+                  
 
 
                     <Grid className="work-grid-item" item xs={12} sm={6} md={4}>
